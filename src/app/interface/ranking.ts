@@ -1,5 +1,5 @@
 export interface Ranking{
-    Teamname: string,
+    TeamName: string,
     GamesPlayed: number,
     wins: number,
     Ties: number,

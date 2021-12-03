@@ -7,18 +7,20 @@ import { AdminComponent } from './admin/admin.component';
 import { ScoringsComponent } from './scorings/scorings.component';
 import { StandingsComponent } from './standings/standings.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
     ScoringsComponent,
-    StandingsComponent
+    StandingsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
